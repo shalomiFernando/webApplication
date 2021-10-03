@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>StudentInfoSystem</display-name>
+ 
+  <servlet>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <servlet-class>oop.servlet.AddTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteTeacherServlet</servlet-name>
+    <servlet-class>oop.servlet.DeleteTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListTeacherServlet</servlet-name>
+    <servlet-class>oop.servlet.ListTeacherServlet</servlet-class>
+  </servlet>
+  
+  
+  <!--  <servlet>
+    <servlet-name>AddEventServlet</servlet-name>
+    <servlet-class>oop.servlet.AddEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteEventServlet</servlet-name>
+    <servlet-class>oop.servlet.DeleteEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListEventServlet</servlet-name>
+    <servlet-class>oop.servlet.ListEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddSubjectServlet</servlet-name>
+    <servlet-class>oop.servlet.AddSubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteSubjectServlet</servlet-name>
+    <servlet-class>oop.servlet.DeleteSubjectServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>ListSubjectServlet</servlet-name>
+    <servlet-class>oop.servlet.ListSubjectServlet</servlet-class>
+  </servlet>  -->
+ 
+
+  
+  <servlet-mapping>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <url-pattern>/AddTeacherServlet</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>DeleteTeacherServlet</servlet-name>
+    <url-pattern>/DeleteTeacherServlet</url-pattern>
+  </servlet-mapping>    
+  <servlet-mapping>
+    <servlet-name>ListTeacherServlet</servlet-name>
+    <url-pattern>/ListTeacherServlet</url-pattern>
+  </servlet-mapping>   
+  
+  
+ <!-- <servlet-mapping>
+    <servlet-name>ListEventServlet</servlet-name>
+    <url-pattern>/ListEventServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListSubjectServlet</servlet-name>
+    <url-pattern>/ListSubjectServlet</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>AddSubjectServlet</servlet-name>
+    <url-pattern>/AddSubjectServlet</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>DeleteSubjectServlet</servlet-name>
+    <url-pattern>/DeleteSubjectServlet</url-pattern>
+  </servlet-mapping> -->
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>ListTeachers.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+
+
