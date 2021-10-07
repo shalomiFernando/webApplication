@@ -1,8 +1,10 @@
 # webApplication
 Deployment :
+
     Not deployed anywhere. This was tested on loalhost
     
 Testing :
+
    1. I launched the application
    2. I Filled in the details in the form and made sure that nothing is missed out
        according to the validations done with JavaScript
